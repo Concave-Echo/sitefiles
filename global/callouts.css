@@ -1,0 +1,12 @@
+/* 
+ * This file contains the following:
+ * - Global styles
+ * - Imports for specific styles
+*/
+
+@import url("callouts/callout-brown.css");
+
+/* callout borders */
+.notion-callout {
+  border-radius: 5px;
+}

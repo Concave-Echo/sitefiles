@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Fontawesome webfont";
+  src: url("https://uploads-ssl.webflow.com/611d1a6134ff344b414d1202/611d1a6134ff341f4f4d121a_fontawesome-webfont.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Productsans";
+  src: url("https://uploads-ssl.webflow.com/611d1a6134ff344b414d1202/61f6d0ad5259c0791a7012f4_ProductSans-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sharp;
+  src: url("https://uploads-ssl.webflow.com/611d1a6134ff344b414d1202/61c8b8013f1b7adedcd3354d_samsungsharpsans-bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,28 @@
+@import url("global/fonts.css");
+@import url("global/callouts.css");
+@import url("global/navbar.css");
+@import url("global/typography.css");
+@import url("global/header.css");
+
+:root {
+  --cc-violet: #6267b5;
+  --cc-blue: #58b0df;
+  --cc-cyan: #50e6ff;
+  --transition-setting: all 0.2s ease-in-out;
+}
+
+body {
+  background: #000 url("https://dkklgcfj2.mo.cloudinary.net/rest/of/the/path/image.jpg");
+  background-attachment: fixed;
+}
+
+/* set page width for non-full width pages */
+.super-content.max-width,
+.notion-header__content[class*="max-width"] {
+  max-width: 1000px !important;
+}
+
+/* hide toggles w/ brown background */
+.notion-toggle.bg-brown {
+  display: none !important;
+}
