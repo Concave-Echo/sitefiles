@@ -1,22 +1,20 @@
-/* 
- * This file contains the following:
- * - Super Navbar styling
-*/
+// This file contains the following:
+// - Super Navbar styling
 
 @import "../utils/_colors";
 
-/* remove normal navbar*/
+// remove normal navbar
 .notion-navbar {
   display: none;
 }
 
-/* transparency + blur */
+// transparency + blur
 .super-navbar {
   background-color: rgba(0, 0, 0, 0.15) !important;
   backdrop-filter: blur(5px);
 }
 
-/* set only logo to clickable entire div */
+// set only logo to clickable entire div
 .notion-link.super-navbar__logo {
   pointer-events: none;
 }
@@ -24,7 +22,7 @@
   pointer-events: all;
 }
 
-/* modify cta button*/
+// modify cta button
 .super-navbar__cta {
   background-size: 150% !important;
   background: rgb(98, 103, 181);

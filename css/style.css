@@ -35,22 +35,15 @@
   font-family: Productsans, "sans-serif";
 }
 
-/* 
- * This file contains the following:
- * - Super Navbar styling
-*/
-/* remove normal navbar*/
 .notion-navbar {
   display: none;
 }
 
-/* transparency + blur */
 .super-navbar {
   background-color: rgba(0, 0, 0, 0.15) !important;
   backdrop-filter: blur(5px);
 }
 
-/* set only logo to clickable entire div */
 .notion-link.super-navbar__logo {
   pointer-events: none;
 }
@@ -59,7 +52,6 @@
   pointer-events: all;
 }
 
-/* modify cta button*/
 .super-navbar__cta {
   background-size: 150% !important;
   background: #6267b5;
@@ -95,11 +87,6 @@
   padding-top: calc(env(safe-area-inset-top) + 2.75em);
 }
 
-/* 
- * This file contains the following:
- * - Global styles
- * - Imports for specific styles
-*/
 .notion-callout[class*=brown] {
   display: flex;
   position: relative !important;
@@ -149,12 +136,10 @@
   color: white !important;
 }
 
-/* callout borders */
 .notion-callout {
   border-radius: 5px;
 }
 
-/* hide toggles w/ brown background */
 .notion-toggle.bg-brown {
   display: none !important;
 }
