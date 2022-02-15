@@ -173,7 +173,7 @@
 }
 
 body {
-  background: #000 url("../images/cave_bg_16_9.jpg");
+  background: #000 url("../images/cave_bg_16_9.webp");
   background-attachment: fixed;
   background-size: cover;
 }
