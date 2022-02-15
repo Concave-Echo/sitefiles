@@ -71,7 +71,7 @@
   border: none;
 }
 
-#block-blog-posts .notion-collection-gallery .medium {
+#block-blog-posts .notion-collection-gallery {
   display: flex;
 }
 
