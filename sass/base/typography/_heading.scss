@@ -1,9 +1,9 @@
-/* Heading font */
+// heading font
 .notion-heading {
   font-family: Sharp, "sans-serif";
 }
 
-/* Set heading size based on screen width */
+// set heading size based on screen width
 @media (min-width: 801px) {
   h1.notion-heading,
   .notion-header__title {

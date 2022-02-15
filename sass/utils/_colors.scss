@@ -1,0 +1,14 @@
+$slate: #6267b5;
+$cornflowerblue: #58b0df;
+$turquoise: #50e6ff;
+$gray: #818181;
+$darkslategray: #292929;
+
+$gradient: linear-gradient(
+  to right,
+  rgba($slate, 0.75) 15%,
+  rgba($cornflowerblue, 0.75) 69%,
+  rgba($turquoise, 0.75) 100%
+);
+
+$gradient-full: linear-gradient(to right, rgba($slate, 1) 15%, rgba($cornflowerblue, 1) 69%, rgba($turquoise, 1) 100%);

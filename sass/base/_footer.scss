@@ -1,0 +1,26 @@
+@media screen and (min-width: 801px) {
+  #block-98a392521783476288f82616a0afc0e5 {
+    justify-content: space-between;
+    .notion-column {
+      width: calc((100% - var(--column-spacing) * 4) * 0.14) !important;
+      align-items: flex-end;
+      margin-inline-start: 0 !important;
+      text-align: end;
+
+      &:first-of-type {
+        width: calc((100% - var(--column-spacing) * 4) * 0.44) !important;
+        align-items: flex-start;
+        text-align: start;
+
+        // full width text given a max width to match logo width
+        .full-width .notion-text {
+          max-width: 65%;
+        }
+      }
+    }
+  }
+  /* shorter width */
+  /*.max-width #block-b60c71cb41de44809e0196f64a924780 .notion-column:first-of-type .notion-text {*/
+  /*max-width: 65%;*/
+  /*}*/
+}

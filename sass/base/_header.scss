@@ -1,9 +1,9 @@
-/* remove header cover gap*/
+// remove header cover gap
 .notion-header__cover.no-cover {
   display: none;
 }
 
-/* add padding based on super's internal padding calc*/
+// add padding based on super's internal padding calc
 .notion-header.page {
   padding-top: calc(env(safe-area-inset-top) + 2.75em);
 }

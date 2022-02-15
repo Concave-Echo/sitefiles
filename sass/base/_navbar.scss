@@ -1,0 +1,55 @@
+// This file contains the following:
+// - Super Navbar styling
+
+@import "../utils/_colors";
+
+// remove normal navbar
+.notion-navbar {
+  display: none;
+}
+
+// transparency + blur
+.super-navbar {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  backdrop-filter: blur(5px);
+}
+
+// set only logo to clickable entire div
+.notion-link.super-navbar__logo {
+  pointer-events: none;
+}
+.super-navbar__logo-image {
+  pointer-events: all;
+}
+
+// modify cta button
+.super-navbar__cta {
+  background-size: 150% !important;
+  background: rgb(98, 103, 181);
+  background: $gradient-full !important;
+  border-radius: 5px;
+
+  &:hover {
+    background-size: 100% !important;
+    transition: var(--transition-setting) !important;
+    transform: scale(105%);
+    opacity: 1;
+  }
+}
+
+// modify logo to scale with screen size
+@media (max-width: 424px) {
+  .notion-link.super-navbar__logo {
+    transform: scale(70%) !important;
+    display: contents;
+  }
+
+  .super-navbar__cta {
+    transform: scale(70%) !important;
+
+    &:hover {
+      transition: var(--transition-setting) !important;
+      transform: scale(75%) !important;
+    }
+  }
+}

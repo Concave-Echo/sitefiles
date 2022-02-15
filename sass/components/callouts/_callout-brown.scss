@@ -1,0 +1,58 @@
+// This turns callouts w/ brown backgrounds
+// into a CTA button that is fully clickable.
+@import "../../utils/_colors.scss";
+
+// turn a single line callout block into a button
+.notion-callout[class*="brown"] {
+  display: flex;
+  position: relative !important;
+  justify-content: center;
+  align-self: center;
+  background: $gradient;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+  transition: all 0.2s ease-in-out !important;
+  border-radius: 5px !important;
+  border: 1px solid rgba(0, 0, 0, 1) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3) !important;
+  -webkit-backdrop-filter: 0 !important;
+  backdrop-filter: 0 !important;
+  max-width: 400px;
+
+  &:hover {
+    transform: translate(0, -2px) !important;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.5) !important;
+    background: $gradient-full;
+  }
+
+  &:active {
+    filter: saturate(2);
+  }
+
+  .notion-callout__icon {
+    filter: invert(1);
+  }
+
+  > .notion-callout__content:first-of-type {
+    width: 400px;
+
+    > .notion-semantic-string span .notion-link {
+      font-weight: bolder;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute !important;
+      height: 100% !important;
+      width: 100% !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      padding: 15px !important;
+      padding-left: 50px !important;
+      border: none !important;
+      opacity: 1;
+      color: white !important;
+    }
+  }
+}
