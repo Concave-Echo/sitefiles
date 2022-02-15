@@ -71,4 +71,8 @@
   border: none;
 }
 
+#block-blog-posts .notion-collection-gallery .medium {
+  display: flex;
+}
+
 /*# sourceMappingURL=home.css.map */
