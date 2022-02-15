@@ -175,6 +175,7 @@
 body {
   background: #000 url("../images/cave_bg_16_9.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .super-content {
