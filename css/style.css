@@ -177,9 +177,15 @@ body {
   background-attachment: fixed;
 }
 
+.super-content {
+  padding-bottom: 15vh;
+}
+
 .super-content.max-width,
 .notion-header__content[class*=max-width] {
   max-width: 1000px !important;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
